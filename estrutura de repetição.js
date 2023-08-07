@@ -41,7 +41,23 @@ for(let i = 0; i<notas.length; i++){   ///notas.lengh irá verificar o tamanho d
    console.log (`A soma é ${soma}` )
    console.log (`A soma é ${soma/notas.length}` )
 
+//atv 1 
+let alunos = ["Heloysa", "Marcus", "Kelvin"]
+let primeira_letra = alunos[0].slice(0) [0]
+console.log(primeira_letra)
+let primeira_letrab = alunos[1].slice() [0]
+console.log(primeira_letrab)
+let primeira_letrac = alunos[2].slice()[0]
+console.log (primeira_letrac) 
 
+//em for
+let alunoss = ["Heloysa", "Marcus", "Kelvin"]
+let priiimerialetra = []
+for(let i = 0; i<alunos.length; i++){
+ priiimerialetra.push (alunos[i].slice ()[0])
+
+ console.log (primeira_letra)
+}
 
 
 
